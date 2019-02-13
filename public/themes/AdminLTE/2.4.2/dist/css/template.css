@@ -1,0 +1,55 @@
+/*!
+ *   Templates 
+ *   Author: Rizal
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+.container-canvas{
+    position:absolute;
+    border:1px solid #efefef;
+    margin:0 5px;
+    max-height:550px ;
+    max-width:480px ;
+    filter:brightness(114%);
+    filter:contrast(114%);
+    filter:opacity(100%);
+    filter:hsl(0,0,0);
+}
+input[type=number]{
+	color:#000000;
+}
+ #wrapper{
+  margin:0 auto;
+  position: relative;
+ }
+ textarea[data-fabric-hiddentextarea]{ 
+ 	position: fixed !important; 
+ }
+#header     { 
+	position:absolute; 
+	top:5%; 
+	left:30%;
+}
+#header .title-canvas    { 
+	color:black;
+	font-family: 'Futura Std'; 
+}
+#footer     { 
+	display: inline-block;
+	position:absolute; 
+	bottom:50%; left:4%;  
+
+}
+#footer .boxed{ 
+	border: 4px solid black; 
+	height: 50px;
+	width: 220px;
+	padding-top:10px;
+	text-align: center;
+	background: transparent;
+	display: block;
+	margin-right: 200px;
+	
+}
+
